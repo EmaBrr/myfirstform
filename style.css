@@ -1,0 +1,27 @@
+body {
+    background-color: #2da3bd;
+    text-align: center;
+
+}
+body form {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+
+}
+body footer form {
+    background-color: #f9f9f9;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+form {
+    background-color: #f9f9f9; 
+    text-align: center;
+} /*Paims visas formas-->*/
+
+h1 {
+    background-color: #f9f9f9;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}

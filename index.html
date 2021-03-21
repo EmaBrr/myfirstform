@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>EmosForma</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+   <h1>Forma nr. 123a</h1>
+    <form  action="" method="GET" enctype="multipart/form-data">  
+        <div >
+            <p>Vardas:</p>
+            <input tabindex="1" placeholder = "Vardas" type="text" name="name">
+        </div> 
+        <div >
+            <p>Slaptažodis:</p>
+            <input tabindex="3"  type="password" name="password">
+        </div> 
+        <div>
+            <p>Tel. Nr.:</p>
+            <input tabindex="-1" placeholder = "Telefono numeris" type="tel">
+        </div>
+        <div>
+            <p>Lytis:</p>
+            <div>
+                <input checked type="radio" name="Gender" value="Man"/>Vyras
+            </div>
+            <div>
+                <input type="radio" name="Gender" value="Woman"/>Moteris
+            </div>
+        </div>
+        <div>
+            <p>Transportas:</p>
+            <div>
+                <input tabindex="2" checked type="checkbox" name="Transport" value="Bike"/>Dviratis
+            </div>
+            <div>
+                <input checked type="checkbox" name="Transport" value="Car"/>Mašina
+            </div>
+            <div>
+                <input type="checkbox" name="Transport" value="Bus"/>Autobusas
+            </div>
+        </div>
+        <div>
+            <p>Papildoma informacija:</p>
+            <div>
+                <textarea tabindex="-1" name="Text"></textarea>
+            </div>
+        </div>
+        <div>
+            <p>Pridėti nuotrauką:</p>
+            <div>
+                <input  type="file"/>
+            </div>
+        </div>
+        <div>
+            <p>Patinkanti spalva:</p>
+            <select name="color">
+                <option value="red">Raudona</option>
+                <option value="green">Žalia</option>
+                <option value="yellow">Geltona</option>
+            </select>
+        </div>
+        <div>
+            <p>Veiksmai:</p>
+                <button type="submit">Siųsti</button>
+                <button type="reset">Išvalyti</button>
+        </div>
+    </form>
+    <footer>
+        <form action=""></form>
+    </footer>
+</body>
+
+</html>
